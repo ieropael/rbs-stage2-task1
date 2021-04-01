@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item-field {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.item-number {
+    user-select: none;
+}
+
+.item-title {
+    width: 100px;
+    user-select: none;
+}
+
+.item-quantity,
+.item-cost {
+    text-align: center;
+    width: 100px;
+    user-select: none;
+}
+
+.summary {
+    text-align: right;
+    margin-top: 20px;
+    user-select: none;
+}
